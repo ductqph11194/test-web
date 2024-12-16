@@ -1,0 +1,81 @@
+{
+    "resellerProgram": {
+        "title": "Get Started with Netproxy.io Reseller Program",
+        "description": "The most cost-effective and risk-free way to start a proxy business, don't miss out on this opportunity.",
+        "buttonText": "GET STARTED",
+        "links": [
+            {
+                "name": "MAIL TO US",
+                "url": "mailto:support@netproxy.io"
+            },
+            {
+                "name": "TELEGRAM",
+                "url": "https://t.me/netproxy"
+            },
+            {
+                "name": "FACEBOOK",
+                "url": "https://facebook.com/netproxy"
+            },
+            {
+                "name": "YOUTUBE",
+                "url": "https://youtube.com/netproxy"
+            }
+        ]
+    },
+    "footer": {
+        "about": "NetProxy.io provides residential proxy services, helping users to access the internet anonymously and securely, supporting tasks such as web scraping and market research with high speed and reliability.",
+        "links": {
+            "account": [
+                "Create account",
+                "Login"
+            ],
+            "affiliate": [
+                "Reseller Program",
+                "Link Program"
+            ],
+            "category": [
+                "FAQs",
+                "Pricing",
+                "Contact"
+            ],
+            "terms": [
+                "Privacy Policy",
+                "Cookie Policy",
+                "Term, service",
+                "Refund Policy"
+            ]
+        },
+        "telegram": {
+            "buttonText": "Join our TELEGRAM chanel",
+            "description": "Click here to join our telegram community",
+            "link": "https://t.me/netproxy"
+        },
+        "disclaimer": "Disclaimer: Users are responsible for lawful use of our proxy services. We are not liable for misuse. Thank you for your understanding!",
+        "paymentMethods": [
+            {
+                "name": "PAY",
+                "logo": "/images/pay.png"
+            },
+            {
+                "name": "Bitcoin",
+                "logo": "/images/bitcoin.png"
+            },
+            {
+                "name": "VISA",
+                "logo": "/images/visa.png"
+            },
+            {
+                "name": "Tazapay",
+                "logo": "/images/tazapay.png"
+            },
+            {
+                "name": "Mastercard",
+                "logo": "/images/mastercard.png"
+            },
+            {
+                "name": "BIDV",
+                "logo": "/images/bidv.png"
+            }
+        ]
+    }
+}

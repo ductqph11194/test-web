@@ -1,0 +1,29 @@
+{
+    "promotion": "Power Up Your Online Access—Residential Proxies Now Up to 20% Off!",
+    "facebook": "Facebook",
+    "logo": {
+        "name": "netproxy.io",
+        "description": "PROXY RESIDENTIAL P2P"
+    },
+    "navLinks": [
+        {
+            "label": "Home",
+            "href": "/"
+        },
+        {
+            "label": "Pricing",
+            "href": "/pricing"
+        },
+        {
+            "label": "FAQs",
+            "href": "/faqs"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "sale": "SALE 20%",
+    "language": "English",
+    "cta": "GET STARTED"
+}

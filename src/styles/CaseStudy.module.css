@@ -1,0 +1,81 @@
+.caseStudySection {
+    padding: 80px 20px;
+    background-color: #f8fcff;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.header h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6f00;
+    text-transform: uppercase;
+}
+
+.header h2 {
+    font-size: 32px;
+    color: #202f53;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.header p {
+    font-size: 16px;
+    color: #606f89;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.caseGrid {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 50px;
+    position: relative;
+    width: 100%;
+}
+
+.caseItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff;
+    border: 1px solid #dce7f1;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.caseItem:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.iconWrapper {
+    background-color: #f0f8ff;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.label {
+    font-size: 14px;
+    color: #202f53;
+    font-weight: 600;
+    text-align: center;
+}

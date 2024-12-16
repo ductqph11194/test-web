@@ -1,0 +1,120 @@
+/* Hero Section Styles */
+.heroSection {
+    background-image: url("../public/bgImage.png");
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    height: 100vh;
+
+    width: 100%;
+    /* Chiều rộng 100% */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+    background-color: #0b0c0f;
+    color: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+/* Hero Content */
+.heroContent h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.heroContent h1 span {
+    color: #ff7e2f;
+}
+
+.heroContent h2 {
+    font-size: 1.8rem;
+    color: #3fb950;
+    margin-bottom: 1rem;
+}
+
+.heroContent p {
+    font-size: 1rem;
+    color: #d1d1d1;
+    margin-bottom: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #ff7e2f;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e96e28;
+}
+
+/* Features */
+.heroFeatures {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature {
+    background-color: rgba(26, 27, 30, 0.85);
+    /* Thêm opacity cho nền */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+
+}
+
+.textFeature {
+    align-content: center;
+    align-items: center;
+    align-self: stretch;
+    background-color: #fafcfc;
+    border-radius: 16px;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: auto;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 64px 32px 32px;
+    position: relative;
+    width: 1px;
+}
+
+.textFeature h3 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.textFeature p {
+    color: #d1d1d1;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}

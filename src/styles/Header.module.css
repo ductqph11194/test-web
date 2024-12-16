@@ -1,0 +1,115 @@
+/* Header Styles */
+.header {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Promotion Banner */
+.promotion {
+    background-color: rgba(255, 121, 41, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 250px;
+    font-size: 0.9rem;
+}
+
+.facebookLink {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 1rem 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoName {
+    font-size: 2rem;
+    color: rgba(255, 121, 41, 1);
+    font-weight: bold;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.actions {
+    /* display: flex; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.btnGroup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.saleBadge {
+    background-color: rgba(255, 121, 41, 1);
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+
+.language button {
+    border: none;
+    background: none;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.ctaButton {
+    background-color: rgba(255, 121, 41, 1);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ctaButton:hover {
+    background-color: #e96e28;
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Residential Proxies P2P",
+    "subtitle": "The best Proxy solution for MMO",
+    "description": "With over 62 million proxy IPs across more than 220 countries and cities, we provide seamless, secure, and reliable proxy solutions for all your online needs.",
+    "buttons": [
+        {
+            "text": "GET STARTED →",
+            "link": "/get-started"
+        },
+        {
+            "text": "VIEW PRICE - AT $0.99",
+            "link": "/pricing"
+        }
+    ],
+    "features": [
+        {
+            "iconSection": "../public/iconSection",
+            "title": "Proxy Transparent",
+            "description": "A transparent proxy boosts security and enhances connection performance."
+        },
+        {
+            "iconSection": "../public/iconSection",
+            "title": "No Logs Kept",
+            "description": "Our no-logs policy ensures privacy by not recording your activities, keeping your data secure and your browsing private."
+        },
+        {
+            "iconSection": "../public/iconSection",
+            "title": "Fast Connection",
+            "description": "Enjoy lightning-fast speeds with our optimized proxy service. Reduced latency and improved response times provide seamless browsing, streaming, and smooth online performance."
+        }
+    ]
+}

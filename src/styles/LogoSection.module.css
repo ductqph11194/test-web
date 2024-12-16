@@ -1,0 +1,35 @@
+.logoSection {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    /* Màu nền nhạt */
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+}
+
+.logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logo {
+    height: 50px;
+    /* Điều chỉnh chiều cao logo */
+    object-fit: contain;
+    /* Đảm bảo logo không bị méo */
+    filter: grayscale(100%);
+    /* Làm mờ màu */
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logo:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
